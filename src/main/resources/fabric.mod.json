@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "globalhorns",
+  "version": "${version}",
+
+  "name": "Global Horns",
+  "description": "Makes the horn sound play to all players in the same dimension, conserving the direction and volume.",
+  "authors": [
+    "Maxence (1.20 port)",
+    "BlueZeeKing (original mod)"
+  ],
+  "contact": {
+    "website": "https://maxencedc.github.io",
+    "repo": "https://github.com/maxencedc/sparsestructures",
+    "homepage": "https://modrinth.com/mod/sparsestructures",
+    "issues": "https://github.com/maxencedc/sparsestructures/issues",
+    "sources": "https://github.com/maxencedc/sparsestructures"
+  },
+
+  "license": "MIT",
+  "icon": "assets/globalhorns/icon.png",
+  "environment": "*",
+
+  "mixins": [
+    "globalhorns.mixins.json"
+  ],
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/mod/sparsestructures"
+      }
+    }
+  },
+
+  "depends": {
+    "minecraft": "1.20.x"
+  }
+}
