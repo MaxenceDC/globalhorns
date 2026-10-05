@@ -3,7 +3,7 @@
   "package": "io.github.maxencedc.globalhorns.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "GlobalHornsMixin"
+    "InstrumentItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1
