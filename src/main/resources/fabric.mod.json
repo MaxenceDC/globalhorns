@@ -9,6 +9,9 @@
     "Maxence (1.20 port)",
     "BlueZeeKing (original mod)"
   ],
+  "contributors": [
+    "AmyMialee (26.3 port)"
+  ],
   "contact": {
     "website": "https://maxencedc.github.io",
     "repo": "https://github.com/maxencedc/sparsestructures",
@@ -31,9 +34,5 @@
         "modmenu.modrinth": "https://modrinth.com/mod/sparsestructures"
       }
     }
-  },
-
-  "depends": {
-    "minecraft": "1.20.x"
   }
 }
